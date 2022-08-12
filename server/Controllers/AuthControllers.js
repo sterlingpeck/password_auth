@@ -67,5 +67,3 @@ module.exports.login = async (req, res, next) => {
     res.json({ erros, created: false });
   }
 };
-
-module.exports.login = async (req, res, next) => {};
